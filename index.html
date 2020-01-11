@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>StockTracker</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <script src='main.js'></script>
+        <div class='container'>
+            <label>Name/Names (Max 5 per search): </label>
+            <input type='text' class='form-control' id='input'>
+            <button type="button" class="btn btn-primary" onclick='search()'>Search</button>
+        </div>
+        <table class='table table-striped' id='stockChart'>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Market</th>
+                <th onclick='sortTable(3)'>MarketCap <i class="up"></i></th>
+                <th onclick='sortTable(4)'>Price <i class="up"></i></th>
+                <th>Day H/L</th>
+                <th>Year H/L</th>
+                <th onclick='sortTable(7)'>P/E <i class="up"></i></th>
+                <th onclick='sortTable(8)'>EPS <i class="up"></i></th>
+                <th onclick='sortTable(9)'>YearRange <i class="up"></i></th>
+                <th onclick='sortTable(10)'>%Range(y) <i class="up"></i></th>
+                <th onclick='sortTable(11)'>Optimal% <i class="up"></i></th>
+                <th onclick='sortTable(12)'>%Range(d) <i class="up"></i></th>
+            </tr>
+        </table>
+    </body>
+</html>
