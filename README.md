@@ -1,5 +1,5 @@
 # StockTracker
-Simple tracker for stocks including the main relavent metrics such as price, market cap, p/e, eps as well as:
+Simple tracker for stocks including relavent metrics such as price, market cap, p/e, eps as well as:
 
 -Year and Day h/l (range of low ==> high stock price by year/day)
 
@@ -10,7 +10,10 @@ Simple tracker for stocks including the main relavent metrics such as price, mar
 
 -Optimal (optimal percent increase in stock value if stock is bought and sold at low/high in 52 week period)
 
--Data from worldtradingdata api
+*Provided sorting (descending order) for all numerical metrics
+
+Important Note
+[1] Data from worldtradingdata api
 *up to 250 requests can be made per day (each request can display up to 5 stocks)
 
--Provided table and sorting (descending) for numerical metrics
+
